@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(116, 149, 215);
+    background-image: url(./img/espaço.avif);
+} 
+
+.form{
+    position: relative;
+
+}
+.box{
+    position: absolute;
+    left: 45%;
+    margin-top: 14.2%;
+    width: 225px;
+    background-color: rgb(49, 135, 146); 
+    text-align: center; 
+    padding: 6px 0; 
+    border-radius: 50px;
+}
+label {
+    display: block; 
+    margin: 7px;
+} 
+
+select{
+    margin: 15px;
+}
+
+.box div{
+    width: 100%;
+}
