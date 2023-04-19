@@ -1,0 +1,47 @@
+.box_1{
+    height: 300px;
+    width: 300px;
+    background-color: brown;
+    font-size: 3em;
+    transition: 1s;
+} 
+
+.box_1:hover {
+    background-color: rgb(28, 198, 217);
+    transform: scale(1.5);
+    transform: perspective(300px) rotateX(45deg) translate(-50px, 100px);
+} 
+
+.box_2 {
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    transition: 2s;
+}
+
+.box_2:active {
+    background-color: rgb(190, 220, 18);
+    font-size: 3em;
+    color: antiquewhite;
+    transform: perspective(100px) rotateY(30deg) translate(100px, -50px);
+}
+input:focus {
+    background-color: rgb(0, 255, 13);
+    transform:  scale(2) translate(100px); 
+    border: 5px solid coral
+} 
+button{
+    background-color: rgb(201, 18, 234);
+
+} 
+
+li {
+    font-size: 4em;
+} 
+li:first-child {
+    color: rgb(230, 23, 23); 
+} 
+li:last-child {
+    color: blueviolet;
+}
+li: :nth-child()
