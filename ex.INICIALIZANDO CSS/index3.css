@@ -1,0 +1,9 @@
+.fonte-da-cor{
+    text-align: center;
+    color: rgb(230, 237, 11);
+    font-size: 3.5em;
+
+} 
+body {
+    background-color: rgb(51, 4, 121);
+}
