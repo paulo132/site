@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body {
+    background-image: url(https://images.hdqwalls.com/wallpapers/synthwave-outrun-planet-4k-61.jpg);
+    background-size: 100%;
+} 
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 2px 10px; 
+    border-bottom: 3.4px solid rgb(15, 233, 234);
+
+} 
+
+header img {
+    height:90px;
+    width:90px;
+    border-radius: 20px;
+}
+
+header img:hover{
+    box-shadow: 4px 4px 30px rgb(121, 58, 214);
+
+
+}
+
+header div {
+    display: flex;
+    align-items: center; 
+}
+header div input{
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+header h1 { 
+    color: rgb(15, 233, 234);
+    margin-top: -10px;
+    margin-left: -210px;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 5em;
+    text-shadow: 15px 8px 10px rgb(146, 9, 36); 
+    margin-bottom: 10px;
+} 
+
+header h1:hover {
+    text-shadow: 15px 8px 10px rgb(94, 20, 144); 
+    transition: 1s;
+    
+} 
+  
+.material-symbols-outlined{
+    font-size: 2em; 
+    margin-top: 0px; 
+    color: rgb(15, 233, 234); 
+    cursor: pointer;
+    transition: 1s; 
+} 
+
+.material-symbols-outlined:hover{
+    text-shadow: 6px 8px 3px rgb(164, 64, 240);
+    transform: translate(-4px,-6px);
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+} 
+
+li{
+    margin: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+} 
+
+                 /*cabeçario parte de cima */
+                 
+ h1{
+    margin-left: 675px;
+    font-size:3em;
+    color: aliceblue;
+}
+.produto1 {
+    width:250px;
+    height: 250px;
+    cursor: pointer;
+} 
+
+.produto1:hover{
+    box-shadow: 4px 4px 30px rgb(102, 100, 237); 
+
+} 
+
+h2{
+    font-size: 20px;
+    color: rgb(221, 241, 69);
+}
+
+.produto2{
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.produto2:hover{
+    box-shadow: 4px 4px 30px rgb(102, 100, 237);
+} 
+
+.produto3{
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.produto3:hover{
+    box-shadow: 4px 4px 30px rgb(102, 100, 237);
+} 
+.produto4{
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.produto4:hover{
+    box-shadow: 4px 4px 30px rgb(102, 100, 237);
+} 
+.produto5{
+    width:250px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.produto5:hover{
+    box-shadow: 4px 4px 30px rgb(102, 100, 237);
+}
