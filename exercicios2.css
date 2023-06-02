@@ -1,8 +1,54 @@
-body{
+body, html {
+    height: 100%;
+    width: 100%;
     background: url(https://as2.ftcdn.net/v2/jpg/05/76/76/81/1000_F_576768172_qdgLgkktt8JLF4tFAeeh2HVA1wCtlO2k.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* align-items: center; */
 }
-div img{
-    width: 200px;
+
+main {
+    display: flex;
+    align-items: center;
+} 
+
+li{
+    display: inline-block;
+}
+    
+
+div {
+    display: block;
+    justify-content: space-evenly;
+    padding: 10px 8px 15px 8px;
+    margin: 0 50px;
+
+    /* justify-content: center;  */
+    /* align-items: center; */
+}
+
+div img {
+    width:270px;
+    height:270px;
+    margin-top: 70px; 
+    border-radius:30px ; 
+} 
+
+div:hover{
+    box-shadow: 2px 2px 50px #2196F3;
+    background: linear-gradient(90deg, #3b1b70, #872287da);
+    transition: 1s;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+} 
+
+p {
+    width: 90%;
 }
